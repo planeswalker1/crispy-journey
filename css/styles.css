@@ -105,3 +105,19 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .info {
+    font-size: 1.25em;
+  }
+
+  .flex-container > div {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .info {
+    font-size: 1em;
+  }
+}

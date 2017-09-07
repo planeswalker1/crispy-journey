@@ -34,3 +34,74 @@ header {
   border-bottom: 2px solid white;
   padding-bottom: 10px;
 }
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  text-align: center;
+}
+
+.about h2 {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-container > div {
+  background-image: url(../img/pic-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 3);
+  height: 300px;
+  text-align: center;
+}
+
+.flex-container div a {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid white;
+  color: white;
+  font-size: 2em;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.flex-container div:nth-of-type(2) {
+  background-image: url(../img/pic-2.jpg);
+}
+
+.flex-container div:nth-of-type(3) {
+  background-image: url(../img/pic-3.jpg);
+}
+
+.flex-container div:nth-of-type(4) {
+  background-image: url(../img/pic-4.jpg);
+}
+
+.flex-container div:nth-of-type(5) {
+  background-image: url(../img/pic-5.jpg);
+}
+
+.flex-container div:nth-of-type(6) {
+  background-image: url(../img/pic-6.jpg);
+}
+
+footer {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
